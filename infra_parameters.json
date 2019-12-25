@@ -1,0 +1,30 @@
+[
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "key_cluster"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "m4.large"
+    },
+    {
+        "ParameterKey": "DiskSizeGb",
+        "ParameterValue": "40"
+    },
+    {
+        "ParameterKey": "BastionInstanceType",
+        "ParameterValue": "t2.micro"
+    },
+    {
+        "ParameterKey": "AvailabilityZone",
+        "ParameterValue": "us-west-2a"
+    },
+    {
+        "ParameterKey": "AdminIngressLocation",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "K8sNodeCapacity",
+        "ParameterValue": "3"
+    }
+]
